@@ -12,7 +12,7 @@ test('get started link', async ({ page }) => {
 
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-  await page.pause()
+  await page.waitForTimeout(1000)
 });
 
 
@@ -25,5 +25,5 @@ test('get started linkk', async ({ page }) => {
 
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-  await page.pause()
+  await page.waitForTimeout(1000)
 });
