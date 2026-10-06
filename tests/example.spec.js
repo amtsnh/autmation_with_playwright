@@ -28,7 +28,10 @@ test('get started link', async ({ page }) => {
 
 test('get started linkkk', async ({ page }) => {
 
-=
+
+test('get started link', async ({ page }) => {
+
+
 
     await page.getByRole('link', { name: 'Get started' }).click();
  
@@ -38,6 +41,7 @@ test('get started linkkk', async ({ page }) => {
   await page.waitForTimeout(1000)
 
 });test('get started linkk', async ({ page }) => {
+
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
